@@ -22,6 +22,7 @@
 
 <body onclick="handleHeaderButton()">
   <div class="bg-grey-img">
+    <!-- hero -->
     <section class="max-1440-auto" id="hero">
       <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
         <div class="container-fluid">
@@ -30,42 +31,45 @@
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span>
-                <img id="hamburger" src="./assist/images/mobile-toggle.png" alt="">
-                <img id="hamburger-cancel" src="./assist/images/cancel.png" alt="">
+                <img id="hamburger" style="filter: grayscale(1) invert(1);" src="./assist/images/mobile-toggle.png" alt="">
+                <img id="hamburger-cancel" style="filter: grayscale(1) invert(1);" src="./assist/images/cancel.png" alt="">
               </span>
             </button>
             <a class="navbar-brand" href="https://gembl-hub.com/">
               <img src="./assist/images//logo.png" alt="logo" class="me-5" />
             </a>
           </div>
-          <div class="btn btn-yellow-nav rounded-pill me-3 navbar-toggler" id="header-navbar-toggle">
+          <div class="btn btn-blue-nav rounded-pill me-3 navbar-toggler" id="header-navbar-toggle">
             Регистрация
           </div>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#hero">Главная</a>
+                <a class="nav-link active text-dark" aria-current="page" href="#hero">Главная</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#aboutus">О нас</a>
+                <a class="nav-link text-dark" href="#aboutus">О нас</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#webmater">Вебмастеру</a>
+                <a class="nav-link text-dark" href="#webmater">Вебмастеру</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#advertiser">Рекламодателю</a>
+                <a class="nav-link text-dark" href="#advertiser">Рекламодателю</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link text-light" href="#Bonuses">Бонусы</a>
-              </li> -->
               <li class="nav-item">
-                <a class="nav-link text-light" href="https://t.me/srgtoproot">Контакты</a>
+                <a class="nav-link text-dark" href="#Bonuses">Магазин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Bonuses">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://t.me/srgtoproot">Контакты</a>
               </li>
             </ul>
             <div class="d-flex align-items-center" id="signup-in">
               <a href="https://gembl-hub.com/signup/affiliate" class="text-decoration-none">
-                <div class="btn btn-yellow-nav rounded-pill mx-3">
+                <div class="btn btn-blue-nav rounded-pill mx-3">
                   Регистрация
                 </div>
               </a>
@@ -78,212 +82,375 @@
           </div>
         </div>
       </nav>
-      <section class="hero d-flex align-items-center justify-content-center">
+      <section class="hero d-flex align-items-center justify-content-center container">
+        <img id="img-desk" src="./assist/images/secondpage/ggg.png" alt="" />
         <div>
           <h2>
-            <span class="default-color-y">Traffer</span> - партнерская программа по фейсбук, схемному и стримерскому
-            трафику
+            <span class="default-color-y lg-title">Магазин баллов</span>
+            <p class="content-md">
+              Забирай призы за трафик.<br>
+              Заливай, получай баллы и обменивай их на призы!
+            </p>
           </h2>
-          <img id="img-mobile" src="./assist/images//ggg-mobile.png" alt="">
-          <a href="https://gembl-hub.com/" class="btn btn-yellow rounded-pill text-uppercase">
-            Лучшие условия
-          </a>
+          <img id="img-mobile" src="./assist/images/secondpage/ggg.png" alt="">
+
         </div>
-        <img id="img-desk" src="./assist/images//ggg.png" alt="" />
+
       </section>
     </section>
   </div>
 
-  <section class="d-md-flex aboutus max-1440-auto position-relative" id="aboutus">
-    <div class="chip-desk">
-     
-    </div>
-    <img class="d-none d-md-inline"  src="./assist/images/three.png" alt="three">
-    <div class="position-relative chip-mobile">
-      <img class="position-absolute top-0 start-0" src="./assist/images/three.png" alt="three">
-    </div>
-    <div class="d-flex align-items-center justify-content-center">
-      <div class="card-bonus">
-        <h2 class="m-title text-light">
-          О нас:
-        </h2>
-        <p class="text-light contents">
-          <span class="default-color-y">Traffer</span>
-          - основан опытными арбитражниками. <br />
-          Мы знаем что сейчас конвертит)
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="text-light about-skills">
-    <h1 class="text-center title mb-5">Сотрудничая с нами, ты получишь:</h1>
-    <div class="max-1000-auto">
-      <div class="col-ul">
-        <ul>
-          <li><span><img src="./assist/images//ul/Group 7.svg" alt=""></span> Безхолдовые выплаты</li>
-          <li><span><img src="./assist/images//ul/Group 8.png" alt=""></span> Профитные офферы</li>
-          <li><span><img src="./assist/images//ul/Group 9.png" alt=""></span> Контент для схемного трафика</li>
-          <li><span><img src="./assist/images//ul/Group 10.png" alt=""></span> Уникальный тг бот с отслеживанием
-            статистики</li>
-          <li><span><img src="./assist/images//ul/Group 11.png" alt=""></span> Поддержка 24/7</li>
-        </ul>
-      </div>
-      <div class="col-ul">
-        <ul>
-          <li><span><img src="./assist/images//ul/Group 2.png" alt=""></span>Анкап на все офферы</li>
-          <li><span><img src="./assist/images//ul/Group 3.png" alt=""></span>Аккаунты для стримов ТТ</li>
-          <li><span><img src="./assist/images//ul/Group 4.png" alt=""></span>Аккаунты инст/тг для схемного трафика</li>
-          <li><span><img src="./assist/images//ul/Group 5.png" alt=""></span>Бесплатные IOS/Android/PWA мобильные
-            приложения</li>
-          <li><span><img src="./assist/images//ul/Group 6.png" alt=""></span>Пушечный конверт</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="webmater">
-    <div class="max-1000-auto" id="webmater">
-      <div class="item mx-4">
-        <h1>Вебмастеру</h1>
-        <p>Заливай трафик по самым выгодным условиям, и профитным продуктам!</p>
-        <a href="https://gembl-hub.com/signup/advertiser" class="btn btn-yellow rounded-pill text-uppercase">
-          Хочу ТОП условия!
-        </a>
-      </div>
-      <div class="item mx-4" id="advertiser">
-        <h1>Рекламодателю</h1>
-        <p>Получите новый поток
-          качественных заявок
-          прямо сейчас!</p>
-        <a href="https://gembl-hub.com/signup/advertiser" class="btn btn-yellow rounded-pill text-uppercase">
-          Хочу ТОП условия!
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="Bonuses" id="Bonuses">
-    <div class="gift-section justify-content-center d-flex mx-auto align-items-center mt-2">
-      <div class="card-bonus">
-        <h2 class="m-title">
-          Бонусы
-        </h2>
-        <p class="text-dark contents">
-          Свежие бонусы специально для наших веб-мастеров
-        </p>
-        <img src="./assist/images//gift.png" class="img-gift-mobile" alt="" />
-      </div>
-      <img src="./assist/images//gift.png" class="img-gift" alt="" />
-    </div>
-  </section> -->
-
-  <!-- <section class="row Bonuses-items py-5 container-fluid">
-    <div class="news-item mx-2">
-      <div>
-        <img src="./assist/images//news/first-title.png" alt="title">
-        <p>Многофункциональный конструктор PWA-приложений под любую вертикаль</p>
-        <h1 class="discount">Скидка <span>15%</span></h1>
-        <p>По промокоду <b>GEMBLHUB</b> — 15% скидки на любой тариф (кроме Trial и Custom)</p>
-      </div>
-      <div class="default-btn-md btn ">
-        Подробнее
-      </div>
-    </div>
-    <div class="news-item mx-2">
-      <div>
-        <img src="./assist/images//news/keitaro_logo.png" alt="title">
-        <p>Платформа для оптимизации, полного контроля и защиты вашего трафика</p>
-        <h1 class="discount">Скидка <span>15%</span></h1>
-        <p>На покупку для нового клиента сроком до 3х месяцев</p>
-      </div>
-      <div class="default-btn-md btn">
-        Подробнее
-      </div>
-    </div>
-    <div class="news-item mx-2">
-      <div>
-        <img src="./assist/images//news/ad.png" alt="title">
-        <p>Аналитика рекламы в Facebook</p>
-        <h1 class="discount">Скидка <span>15%</span></h1>
-        <p>По промокоду GEMBLHUB — 15% скидки на сервис</p>
-      </div>
-      <div class="default-btn-md btn">
-        Подробнее
-      </div>
-    </div>
-  </section> -->
-
-  <section id="contacts" class="contactus text-dark text-center">
-    <div class="m-auto">
-      <h1 class="text-light pt-5">Напиши нам</h1>
-      <form class="form mb-5 px-3">
-        <div class="input-group my-4 m-auto">
-          <input type="text" class="form-control" id="contact_name" name="name" placeholder="Имя">
-        </div>
-        <div class="input-group my-4 m-auto">
-          <input type="text" class="form-control" id="contact_email" name="email" placeholder="e-mail">
-        </div>
-        <div class="input-group my-4 m-auto">
-          <textarea class="form-control" name="content" id="contact_message" placeholder="Ваше сообщение"></textarea>
-        </div>
-
-        <div id="form-contact" type="button" onclick="sendMessage()" class="default-btn-md btn">
-          Отправить
-        </div>
-      </form>
-
-      <!-- <div class="default-color-y pt-5">
-        <h2>По вопросам сотрудничества</h2>
-      </div>
-      <div class="row text-light justify-content-center pb-5">
-        <div class="col-md-6 d-flex justify-content-center py-2">
-          <div class="d-flex btn-tg-mail align-items-center" id="telegram-contact">
-            <span class="d-flex align-items-center justify-content-center"><img src="./assist/images//telegram.png"
-                alt="tg"></span>
-            <p class="ps-4 m-0">
-              Имя <br>
-              @nik_tg
-            </p>
+  <!-- section 2 -->
+  <section class="container">
+    <div class="small-intro">
+      <h2>Выберите категорию</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/jacket (2) 1.png" alt="icons">
+            <span>Мерч</span>
           </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-center py-2">
-          <div class="d-flex btn-tg-mail align-items-center" id="mail-contact">
-            <span class="d-flex align-items-center justify-content-center"><img src="./assist/images//mail.png"
-                alt="tg"></span>
-            <p class="ps-4 m-0">
-              my_log@gmail.com
-            </p>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/headphones 1.png" alt="icons">
+            <span>Наушники</span>
           </div>
         </div>
-      </div> -->
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/certification 1.png" alt="icons">
+            <span>Сертификаты</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/smartphone 1.png" alt="icons">
+            <span>Телефоны</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/smart-watch (1) 1.png" alt="icons">
+            <span>Часы</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/laptop (2) 1.png" alt="icons">
+            <span>Ноутбуки</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/picnic 1.png" alt="icons">
+            <span>Пикник</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/gift (2) 1.png" alt="icons">
+            <span>Другие призы</span>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
+  <!-- section 3 -->
+  <section class="container" id="section3">
+    <div class="row ">
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/3057177-PhotoRoom 1.png" alt="items">
+          <h2>1050 баллов</h2>
+          <h3>Apple Watch Series 9 41mm</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/2931839-PhotoRoom222222 1.png" alt="items">
+          <h2>800 баллов</h2>
+          <h3>Apple Watch Series 8 41mm</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698924770561 1.png" alt="items">
+          <h2>1200 баллов</h2>
+          <h3>Смарт-часы Garmin Fenix 6 Pro Solar</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698925346631 1.png" alt="items">
+          <h2>450 баллов</h2>
+          <h3>Наушники Apple AirPods 3 (MME73)</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698924247064 1.png" alt="items">
+          <h2>1250 баллов</h2>
+          <h3>Наушники Apple AirPods Max Space</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698926638395 1.png" alt="items">
+          <h2>250 баллов</h2>
+          <h3>Наушники Marshall Minor III</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698931930 1.png" alt="items">
+          <h2>1900 баллов</h2>
+          <h3>Apple MacBook Air 13" 256GB</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698955481593 1.png" alt="items">
+          <h2>2200 баллов</h2>
+          <h3>Ноутбук ASUS Zenbook 13 OLED UX325EA-KG631W</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698941001 1.png" alt="items">
+          <h2>1250 баллов</h2>
+          <h3>Apple iPhone 13 128GB Blue (MLPK3)</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698941339 1.png" alt="items">
+          <h2>900 баллов</h2>
+          <h3>Apple iPhone 11 128GB Black (MWLE2) </h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698941815 1.png" alt="items">
+          <h2>50 баллов</h2>
+          <h3>Электрогриль First FA-5343-1</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698942152 1.png" alt="items">
+          <h2>90 баллов</h2>
+          <h3>Внешний аккумулятор Lunatik Power Bank</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/snapedit_1698944537878 1.png" alt="items">
+          <h2>100 баллов</h2>
+          <h3>Акустика Tronsmart T7 Lite Black</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698945180 1.png" alt="items">
+          <h2>90 баллов</h2>
+          <h3>Садж сковорода 50 см с подвеской</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Vmake-1698947527 1.png" alt="items">
+          <h2>80 баллов</h2>
+          <h3>Стол с 4 стульями складной для пикника</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Group 31.png" alt="items">
+          <h2>50 баллов</h2>
+          <h3>Переносной Мангал-чемодан на 8 шампуров</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Group 32.png" alt="items">
+          <h2>350 баллов</h2>
+          <h3>Сертификат DOLPHIN             (1 месяц)</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Group 32.jpg" alt="items">
+          <h2>450 баллов</h2>
+          <h3>Сертификат KEITARO             (6 месяцев)</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <img src="./assist/images/secondpage/items/Group 31 (1).png" alt="items">
+          <h2>90 баллов</h2>
+          <h3>Худи</h3>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
 
   <footer style="background-color: #0E0E0E; position: relative;">
     <div class="container">
-      <div class="d-flex align-items-center justify-content-between">
-        <a href="https://gembl-hub.com/">
-          <img src="./assist/images/logo.png" alt="">
-        </a>
-        <div class="d-flex flex-wrap align-items-center contact-footer">
-          <p class="pe-5" style="margin-top: revert;">Оставайся с нами:</p>
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="contact-footer">
+          <p class="network-t" style="margin-top: revert;">Мы в соц сетях</p>
           <div class="d-flex">
-            <a href="https://t.me/+ALVeV_1PrWJiYjJi">
-              <img src="./assist/images/footer/telegram.png" alt="telegram">
-            </a>
-            <a href="live:.cid.c38c43e4caf1b3c">
-              <img src="./assist/images/footer/skype.svg" alt="skype">
+            <a href="https://t.me/+ALVeV_1PrWJiYjJi" style="padding-right: 36px;">
+              <img src="./assist/images/footer/icon tg.png" alt="telegram">
+              <span>Telegram</span>
             </a>
             <a href="mailto:gemblhub@gmail.com">
-              <img src="./assist/images/footer/mail.svg" alt="mail">
+              <img src="./assist/images/footer/icon inst.png" alt="inst">
+              <span>Instagram</span>
             </a>
           </div>
         </div>
       </div>
+      <p class="copyright-footer">© 2020-2023, Все права сохранены. Traffer Partners</p>
     </div>
-    <img class="footer-up" src="./assist/images/footer-up.png" alt="footer-up">
   </footer>
 </body>
 
