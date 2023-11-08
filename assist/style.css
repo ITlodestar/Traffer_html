@@ -51,7 +51,8 @@ body {
 }
 
 #navbarSupportedContent a:hover {
-  border-bottom: #FFC700 solid 1px;
+  border-bottom: #A357F5 solid 2px;
+
 }
 
 
@@ -298,6 +299,7 @@ body {
 .contactus h2 {
   font-size: 57px;
 }
+
 .contactus>div {
   max-width: 1000px;
 }
@@ -473,9 +475,11 @@ footer .copyright-footer {
   .title {
     font-size: 37px !important;
   }
+
   .bg-vid {
     max-width: 300px;
   }
+
   .chip-desk {
     display: none;
   }
