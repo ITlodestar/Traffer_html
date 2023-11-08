@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Traffer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Font -->
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assist/style-sec.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <script src="./assist/index.js"></script>
+</head>
+
+<body onclick="handleHeaderButton()">
+  <div class="bg-grey-img">
+    <!-- hero -->
+    <section class="max-1440-auto" id="hero">
+      <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+        <div class="container-fluid">
+          <div>
+            <button id="navbar-button" class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span>
+                <img id="hamburger" style="filter: grayscale(1) invert(1);" src="./assist/images/mobile-toggle.png"
+                  alt="">
+                <img id="hamburger-cancel" style="filter: grayscale(1) invert(1);" src="./assist/images/cancel.png"
+                  alt="">
+              </span>
+            </button>
+            <a class="navbar-brand" href="https://gembl-hub.com/">
+              <img src="./assist/images//logo.png" alt="logo" class="me-5" />
+            </a>
+          </div>
+          <div class="btn btn-blue-nav rounded-pill me-3 navbar-toggler" id="header-navbar-toggle">
+            Регистрация
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#hero">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#aboutus">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#webmater">Вебмастеру</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#advertiser">Рекламодателю</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Bonuses">Магазин</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Bonuses">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://t.me/srgtoproot">Контакты</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center" id="signup-in">
+              <a href="https://gembl-hub.com/signup/affiliate" class="text-decoration-none">
+                <div class="btn btn-blue-nav rounded-pill mx-3">
+                  Регистрация
+                </div>
+              </a>
+              <a href="https://gembl-hub.com/signup/affiliate" class="text-decoration-none">
+                <div class="default-color-y">
+                  Войти
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="hero d-flex align-items-center justify-content-center container">
+        <img id="img-desk" src="./assist/images/secondpage/ggg.png" alt="" />
+        <div>
+          <h2>
+            <span class="default-color-y lg-title">Магазин баллов</span>
+            <p class="content-md">
+              Забирай призы за трафик.<br>
+              Заливай, получай баллы и обменивай их на призы!
+            </p>
+          </h2>
+          <img id="img-mobile" src="./assist/images/secondpage/ggg.png" alt="">
+
+        </div>
+
+      </section>
+    </section>
+  </div>
+
+  <!-- section 2 -->
+  <section class="container">
+    <div class="small-intro">
+      <h2>Выберите категорию</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/jacket (2) 1.png" alt="icons">
+            <span>Мерч</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/headphones 1.png" alt="icons">
+            <span>Наушники</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/certification 1.png" alt="icons">
+            <span>Сертификаты</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/smartphone 1.png" alt="icons">
+            <span>Телефоны</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/smart-watch (1) 1.png" alt="icons">
+            <span>Часы</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/laptop (2) 1.png" alt="icons">
+            <span>Ноутбуки</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/picnic 1.png" alt="icons">
+            <span>Пикник</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="sec-card">
+            <img src="./assist/images/sm-icons/gift (2) 1.png" alt="icons">
+            <span>Другие призы</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- section 3 -->
+  <section class="container" id="section3">
+    <div class="row ">
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/3057177-PhotoRoom 1.png" alt="items">
+            <h2>1050 баллов</h2>
+            <h3>Apple Watch Series 9 41mm</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/2931839-PhotoRoom222222 1.png" alt="items">
+            <h2>800 баллов</h2>
+            <h3>Apple Watch Series 8 41mm</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698924770561 1.png" alt="items">
+            <h2>1200 баллов</h2>
+            <h3>Смарт-часы Garmin Fenix 6 Pro Solar</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698925346631 1.png" alt="items">
+            <h2>450 баллов</h2>
+            <h3>Наушники Apple AirPods 3 (MME73)</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698924247064 1.png" alt="items">
+            <h2>1250 баллов</h2>
+            <h3>Наушники Apple AirPods Max Space</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698926638395 1.png" alt="items">
+            <h2>250 баллов</h2>
+            <h3>Наушники Marshall Minor III</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698931930 1.png" alt="items">
+            <h2>1900 баллов</h2>
+            <h3>Apple MacBook Air 13" 256GB</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698955481593 1.png" alt="items">
+            <h2>2200 баллов</h2>
+            <h3>Ноутбук ASUS Zenbook 13 OLED UX325EA-KG631W</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698941001 1.png" alt="items">
+            <h2>1250 баллов</h2>
+            <h3>Apple iPhone 13 128GB Blue (MLPK3)</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698941339 1.png" alt="items">
+            <h2>900 баллов</h2>
+            <h3>Apple iPhone 11 128GB Black (MWLE2) </h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698941815 1.png" alt="items">
+            <h2>50 баллов</h2>
+            <h3>Электрогриль First FA-5343-1</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698942152 1.png" alt="items">
+            <h2>90 баллов</h2>
+            <h3>Внешний аккумулятор Lunatik Power Bank</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/snapedit_1698944537878 1.png" alt="items">
+            <h2>100 баллов</h2>
+            <h3>Акустика Tronsmart T7 Lite Black</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698945180 1.png" alt="items">
+            <h2>90 баллов</h2>
+            <h3>Садж сковорода 50 см с подвеской</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Vmake-1698947527 1.png" alt="items">
+            <h2>80 баллов</h2>
+            <h3>Стол с 4 стульями складной для пикника</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+      <!-- ------------------------------------ -->
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Group 31.png" alt="items">
+            <h2>50 баллов</h2>
+            <h3>Переносной Мангал-чемодан на 8 шампуров</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Group 32.png" alt="items">
+            <h2>350 баллов</h2>
+            <h3>Сертификат DOLPHIN (1 месяц)</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Group 32.jpg" alt="items">
+            <h2>450 баллов</h2>
+            <h3>Сертификат KEITARO (6 месяцев)</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------ -->
+
+      <div class="col-sm-12 col-md-6 col-xl-4">
+        <div class="sec-card">
+          <div>
+            <img src="./assist/images/secondpage/items/Group 31 (1).png" alt="items">
+            <h2>90 баллов</h2>
+            <h3>Худи</h3>
+          </div>
+          <div class="button-item">
+            <span>
+              забрать подарок
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <footer style="background-color: #0E0E0E; position: relative;">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-center">
+        <div class="contact-footer">
+          <p class="network-t" style="margin-top: revert;">Мы в соц сетях</p>
+          <div class="d-flex">
+            <a href="https://t.me/+ALVeV_1PrWJiYjJi" style="padding-right: 36px;">
+              <img src="./assist/images/footer/icon tg.png" alt="telegram">
+              <span>Telegram</span>
+            </a>
+            <a href="mailto:gemblhub@gmail.com">
+              <img src="./assist/images/footer/icon inst.png" alt="inst">
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright-footer">© 2020-2023, Все права сохранены. Traffer Partners</p>
+    </div>
+  </footer>
+</body>
+
+</html>
